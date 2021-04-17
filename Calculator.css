@@ -1,0 +1,32 @@
+input{
+    margin: 5px 0;
+}
+fieldset{
+    width: 220px;
+    padding: 10px 20px;
+    background-color:lightsteelblue;
+    margin-bottom: 10px;
+}
+
+legend{
+    background-color: slategray;
+    padding: 0 10px;
+    color: whitesmoke;
+}
+
+input#operand1{
+    width: 40px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+input#operand2{
+    width: 40px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+label#op{
+    margin-right: 10px;
+}

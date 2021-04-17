@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/Calculator.css" rel="stylesheet">
+        <meta name="author" content="RG">
+        <meta charset="utf-8">
+        <script src="jscript/jscript.js"></script> 
+    </head>
+    <body>
+        <header>
+            <h3>Lab 7: JavaScript Arithmetic Operator </h3>
+        </header>
+            <form name="copymachine" action='' method='GET'>
+                <fieldset>
+                    <legend>My Calculator</legend>
+                    <textarea id="output" name="input" id="text" value="" rows="3" cols="20" ></textarea>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Input</legend>
+                    <label for="operands">Operands:</label>
+                    <input name="op" id="operand1" type="text" value=""/>
+                    <input name="op" id="operand2" type="text" value=""/>
+                    <label id="op" for="operator">Operator:</label>
+                    <input id="bt1" type="button" name="submit" value="+" onclick="sum()"> 
+                    <input id="bt2" type="button" name="submit" value="&times;" onclick="mul()"> 
+                    <input id="bt3" type="button" name="submit" value="/" onclick="div()"> 
+                    <input id="bt4" type="button" value="clear" onclick="clearit()"> 
+                </fieldset>               
+            </form>
+    </body>
+</html>
